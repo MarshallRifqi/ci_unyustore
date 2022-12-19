@@ -1,0 +1,88 @@
+.center-judul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hover:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.font-all{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .bg-cl{
+    background-color: #FAFAFA;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+.wrapper-box-pembayaran{
+    margin: 15px;
+    background-color: #ffff;
+    height: 500px;
+    border-radius: 13px;
+}
+.judul-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.player-id-game{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+.detail{
+    text-align: end;
+}
+.judul{
+    text-align: left;
+}
+
+/* pembayaran */
+body{
+    background-color: #F2F3F4;
+    font-family: 'Noto Sans', sans-serif;
+}
+.font-sz{
+    font-size: 11px;
+    color: #b9aec5;
+}
+/* .cntr-size{
+    width: 1150px;
+} */
+.desc-game{
+    line-height: 22px;
+    font-size: .875rem;
+}
+.ft-weight{
+    font-weight: 700;
+}
+.shadow-card{
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%), 0 4px 5px 0 rgb(0 0 0 / 6%), 0 2px 4px 0 rgb(0 0 0 / 7%);
+}
+.name-fnt-1{
+    font-family: 'Denk One', sans-serif;
+}
+
+.bg-login{
+    background-color: #F2F3F4;
+}
+
+.body-btm{
+    min-height: 100vh !important;
+}
+
+.f-btm{
+    position: sticky;
+    top: 100% ;
+}
+
